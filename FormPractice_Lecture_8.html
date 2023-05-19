@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Beginning</title>
+</head>
+<body>
+    <form>
+        <!-- Practice Form 1 -->
+        <fieldset>
+            <legend>Practice Form 1</legend>
+            <label for="Email">UserName</label>
+            <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+            <br/> <br/>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter your Password">
+            <br/> <br/>
+            <input type="submit" value="Submit">
+            <br/>
+            </fieldset>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+        <!-- FORM ELEMENTS -->
+        <fieldset>
+            <legend>Form Element</legend>
+            <label for="Name">Enter your Name</label>
+            <input type="text" name="Name" id="Name">
+            <br/> <br/>
+            <label for="food">Choose your Favourite Food</label>
+            <select name="Favourite Food" id="food" multiple>
+                <!-- Multiple Attribute in select allows to select multiple items from dropDown, by pressing ctrl+select button -->
+                <option value="">Choose your Food</option>
+                <option value="maggie">Maggie</option>
+                <option value="pasta">Pasta</option>
+                <option value="pizza">Pizza</option>
+            </select>
+            <br/> <br/>
+            <!-- Two ways to Create Button -->
+            <input type="submit" value="Submit">
+            <br/> <br/>
+            <button>Main Button hun</button>
+            <br/> <br/>
+            <label for="Address">Enter your Address</label>
+            <textarea name="Address" id="Address" cols="30" rows="10" placeholder=" XYZ House No."></textarea>
+            <br/> <br/>
+            <!-- FielsSet & Legend Already used to Specify Different Sections -->
+        </fieldset>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Input Type</legend>
+
+            <!-- TextField -->
+            <label for="Fname">Your First Name</label>
+            <input type="text" name="Fname" id="Fname">
+            <br/> <br/>
+
+            <!-- Buttons -->
+            <input type="button" value="Button">
+            <br/> <br/>
+
+            <!-- Radio -->
+
+            <!-- (HomeWork )Follow up :- If we use same name attribute "NAME" then we can select one radio option form more -->
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female">
+            <label for="others">Others</label>
+            <input type="radio" name="Gender" id="others">
+            <br/> <br/>
+
+            <!-- CheckBox -->
+            <label for="">Choose your Interest : </label>
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="cricket" id="cricket">
+            <label for="football">Football</label>
+            <input type="checkbox" name="football" id="football">
+            <label for="song">Singing</label>
+            <input type="checkbox" name="song" id="song">
+            <label for="dance">Dancing</label>
+            <input type="checkbox" name="dance" id="dance">
+            <label for="other">Others</label>
+            <input type="checkbox" name="other" id="other">
+            <br/> <br/>
+
+            <!-- FileSelect -->
+            <label for="Document">Upload any File</label>
+            <input type="file" id="Document" name="Document">
+            <br/> <br/>
+
+            <!-- Image Select -->
+            <label for="UserImage">UserPicture</label>
+            <input type="image" name="UserImage" id="UserImage" src="Userimage.png" alt="This is a Image" width="200px">
+            <br/> <br/>
+
+            <!-- Password Field -->
+            <label for="Pass">User Password</label>
+            <input type="password" name="Pass" id="Pass">
+            <br/> <br/>
+
+            <!-- Date -->
+            <label for="DOB">Date of Birth</label>
+            <input type="date" name="DOB" id="DOB">
+            <br/> <br/>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
